@@ -132,7 +132,7 @@ function()
        document.querySelector('.button2').style.color='white';
        document.querySelector('.button2').style.borderColor='white';
 
-        document.querySelector('.m3').textContent='Congratulations 💰🏆🥇';
+        document.querySelector('.m3').textContent='Congratulation!!🏆🥇';
         if(highScore<score){
         highScore=score;
         document.querySelector('.m5_1').textContent=highScore;
