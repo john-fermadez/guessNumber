@@ -132,7 +132,7 @@ function()
        document.querySelector('.button2').style.color='white';
        document.querySelector('.button2').style.borderColor='white';
 
-        document.querySelector('.m3').textContent='Congratulations 🥳🥇';
+        document.querySelector('.m3').textContent='Congratulations 💰🏆🥇';
         if(highScore<score){
         highScore=score;
         document.querySelector('.m5_1').textContent=highScore;
@@ -142,9 +142,9 @@ function()
      
       else{
           if(data>randomNo)
-          document.querySelector('.m3').textContent='Too High😕';
+          document.querySelector('.m3').textContent='Too High📈';
           else if(data<randomNo)
-          document.querySelector('.m3').textContent='Too Low😣';
+          document.querySelector('.m3').textContent='Too Low📉';
          score=score-1;
       }
       document.querySelector('.m4_1').textContent=trys;
@@ -154,7 +154,7 @@ function()
         document.body.style.backgroundColor = " red";
         retry=1;
         congratulationFlag=1;
-        document.querySelector('.m3').textContent='RETRY🚫🚫';
+        document.querySelector('.m3').textContent='RETRY🚫';
     }
     
     
