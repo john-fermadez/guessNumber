@@ -1,0 +1,221 @@
+body{
+    font-family: 'Orbitron', cursive;
+    background-color: #ffe6e6;
+    color:#ffb3d9;
+}
+
+.m1,.m2
+{
+  display:inline;
+  font-size:25px;
+  transition: background-color,color ease-in,transform, 1s ;
+  margin:0;
+  padding:0;
+}
+.m1Box,.m2Box
+{
+    display:inline;
+}
+.m1:hover,.m2:hover,.m3:hover,.m4:hover,.m5:hover,.m4_1:hover,.m5_1:hover{
+    color:#ff66b3;
+    cursor:default;
+}
+
+
+.m3{
+    font-size:25px;
+    display:inline;
+    margin:0;
+  padding:0;
+    position: relative;
+    transition: background-color,color ease-in,transform, 1s ;
+   
+}
+.m4_1,.m5_1{
+    display:inline;
+    font-size:25px;
+}
+
+.m4
+{position: relative;
+    display:inline;
+    transition: background-color,color ease-in,transform, 1s ;
+  margin:0;
+  padding:0;
+  
+ 
+    font-size:25px;
+}
+
+.m5{
+    position: relative; 
+  display:inline;
+   transition: background-color,color ease-in,transform, 1s ;
+  margin:0;
+  padding:0;
+  
+    font-size:25px;
+
+}
+.m3Box,.m4Box,.m5Box
+{
+    display:block;
+    position:relative;
+    
+    width:300px;
+}
+.block1
+{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    
+ 
+   
+}
+.block2
+{position:relative;
+    top:200px;
+}
+.block3
+{
+    position:relative;
+    top:300px; 
+    
+    display:flex;
+    justify-content: space-between;
+    
+ 
+    
+}
+.input1{
+    background: none;
+  border: 2px solid #ffb3d9;
+  font-size: 45px;
+  width: 180px;
+  color:#ffb3d9;
+  text-align: center;
+}
+.button1
+{
+    position:relative;
+    
+    top:20px;
+    height:50px;
+    width:90px;
+    color:#ffb3d9;
+    background-color: #ffe6e6;
+    border:1.6px solid  #ffb3d9;;
+    font-family: 'Kiwi Maru', serif;
+    border-radius:6px;
+    font-size:20px;
+    font-weight:700;
+    transition: background-color,color ease-in-out,transform,box-shadow, 1s ;
+}
+.button1:hover
+{
+    color:  #ffffff;
+    letter-spacing:0.3px;
+    background-color: rgba(255,102,179,0.7);
+    border-color:rgba(255,102,179,0.7);
+    border-radius:10px;
+    box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+    transform:translateY(-0.25em);
+    cursor: pointer;
+}
+.button2
+{  position:relative;
+    bottom:7px;
+    left:18px;
+    height:50px;
+    width:90px;
+    color:#ffb3d9;
+    background-color: #ffe6e6;
+    border:1.6px solid  #ffb3d9;;
+    font-family: 'Kiwi Maru', serif;
+    border-radius:6px;
+    font-size:20px;
+    font-weight:700;
+    transition: background-color,color ease-in-out,transform,box-shadow, 1s ;
+}
+.button2:hover{
+    color:  #ffffff;
+    letter-spacing:0.3px;
+    background-color: rgba(255,102,179,0.7);
+    border-color:rgba(255,102,179,0.7);
+    border-radius:10px;
+    box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+    transform:translateY(-0.25em);
+    cursor: pointer;
+}
+.line
+{
+height:4px;
+background-color:#ffb3d9;
+border-color: #ffb3d9;
+width:100%;
+
+}
+.box
+{width:96px;
+    height:80px;
+    position:absolute;
+    left:45%;
+   top:-38px;
+   background-color: #ffb3d9;
+   border-radius:5px;
+   transition: background-color,color ease-in-out,transform,box-shadow, 1s ;
+}
+.box:hover{
+    color:  #ffffff;
+    letter-spacing:0.3px;
+    background-color: #ff66b3;
+    border-color:#ff66b3;
+    border-radius:10px;
+    box-shadow:8px 8px 15px 0px rgb(129, 129, 131) ;
+    transform:translateY(-0.25em);
+    
+}
+
+.score{
+    color: white;
+    text-align: center;
+}
+.curve1
+{
+    position:absolute;
+    right:50%;
+    background-color: rgba(255, 255, 255,0);
+    border:1px solid rgba(255, 255, 255,0);
+   transition: transform,color ease-in, 0.55s ;
+}
+.curve1_1
+{
+    position:absolute;
+    right:51%;
+    bottom:88%;
+    background-color: rgba(255, 255, 255,0);
+    border:1px solid rgba(255, 255, 255,0);
+    transition: transform,color ease-in, 0.55s ;
+}
+.curve2
+{
+    position:absolute;
+    top:80%;
+    right:50%;
+    background-color: rgba(255, 255, 255,0);
+    border:1px solid rgba(255, 255, 255,0);
+    border-bottom-color:rgba(255, 255, 255,0);
+    transition: transform,color ease-in, 0.55s ;
+    
+}
+.curve2_1
+{
+    position:absolute;
+    top:88%;
+    right:51%;
+    background-color: rgba(255, 255, 255,0);
+    border:1px solid rgba(255, 255, 255,0);
+    border-bottom-color:rgba(255, 255, 255,0);
+    transition: transform,color ease-in, 0.55s ;
+}
