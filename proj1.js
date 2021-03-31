@@ -81,7 +81,7 @@ function()
       {
  
         document.querySelector('.box').style.backgroundColor='#339933';
-        document.querySelector('.box').style.transform = "scale(1.4)";
+        document.querySelector('.box').style.transform = "scale(1)";
         document.querySelector('.box').style.width='90px ';
         document.querySelector('.box').style.height='90px ';
       document.querySelector('.box').style.borderRadius='100% 100% 100% 100% '; 
